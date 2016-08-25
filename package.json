@@ -1,0 +1,32 @@
+{
+  "name": "co-test-helpers",
+  "version": "1.0.0",
+  "description": "Helpers to simplify writing node.js tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comparaonline/co-test-helpers.git"
+  },
+  "keywords": [
+    "test",
+    "helpers"
+  ],
+  "author": "Ezequiel Rabinovich <erabinovich@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comparaonline/co-test-helpers/issues"
+  },
+  "homepage": "https://github.com/comparaonline/co-test-helpers#readme",
+  "peerDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "nock": "^8.0.0",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  }
+}
