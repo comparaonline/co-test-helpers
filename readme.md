@@ -19,7 +19,7 @@ Takes an argument of type Error and fails with the error's message
 
 ### fakeTime
 It's a function with two arguments:
-  - options: passed to `sinon.useFakeTimers`
+  - options: passed to `sinon.useFakeTimers` (it's optional)
   - fn: the function that will be executed with the fake time. It can receive
     two optional arguments, `done` (a function to call when async operations
     finished), and `clock` (the `sinon.useFakeTimers` return object).
