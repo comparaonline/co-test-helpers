@@ -10,9 +10,12 @@ helpers / initialization.
 Exports the following globals:
 - expect (chai.expect) with sinonChai
 - sinon
+- fail (helper for expect.fail)
 - fakeTime (helper for sinon.useFakeTimers)
 - HttpRecording (helper for nock)
 
+### fail
+Takes an argument of type Error and fails with the error's message
 
 ### fakeTime
 It's a function with two arguments:
@@ -30,3 +33,6 @@ Your http calls should be wrapped in `HttpRecording.recordOrPlayback()` method.
 It receives two arguments, first the cassette name (it should be located on
 `test/cassettes`), and a function (which receives a `done` function parameter to
 call when finished).
+
+You can change nock's mode to 'record' or 'lockdown' using the `RECORD`
+environment variable.
