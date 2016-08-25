@@ -1,6 +1,6 @@
 {
   "name": "co-test-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helpers to simplify writing node.js tests",
   "main": "index.js",
   "scripts": {
