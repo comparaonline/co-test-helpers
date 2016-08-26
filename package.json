@@ -1,6 +1,6 @@
 {
   "name": "co-test-helpers",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Helpers to simplify writing node.js tests",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/comparaonline/co-test-helpers#readme",
   "peerDependencies": {
-    "mocha": "^2.5.3"
+    "mocha": "*"
   },
   "dependencies": {
     "chai": "^3.5.0",
