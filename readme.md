@@ -8,7 +8,8 @@ Require `test/support` on start if present. Use it for your own project's
 helpers / initialization.
 
 Exports the following globals:
-- expect (chai.expect) with sinonChai
+- expect (chai.expect with sinonChai)
+- request (chai.request from chai-http)
 - sinon
 - fail (helper for expect.fail)
 - fakeTime (helper for sinon.useFakeTimers)
